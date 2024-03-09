@@ -24,11 +24,12 @@ class Filter extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10.0),
                 ),
                 enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.grey[300]!),
+                  borderSide:
+                      const BorderSide(color: Color.fromARGB(255, 247, 0, 0)),
                   borderRadius: BorderRadius.circular(10.0),
                 ),
                 filled: true,
-                fillColor: Colors.grey[200],
+                fillColor: Colors.white,
                 hintStyle: const TextStyle(
                   fontSize: 14,
                 ),

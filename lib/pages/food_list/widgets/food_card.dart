@@ -8,20 +8,9 @@ class FoodCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-        borderRadius: const BorderRadius.all(Radius.circular(12)),
+      decoration: const BoxDecoration(
+        borderRadius: BorderRadius.all(Radius.circular(12)),
         color: Colors.white,
-        boxShadow: [
-          BoxShadow(
-            color: Colors.grey[300]!,
-            blurRadius: 15.0,
-            spreadRadius: 0.5,
-            offset: const Offset(
-              3.0,
-              3.0,
-            ),
-          )
-        ],
       ),
       child: Padding(
         padding: const EdgeInsets.all(12.0),

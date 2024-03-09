@@ -48,8 +48,8 @@ class UserDetails extends StatelessWidget {
           Row(
             children: <Widget>[
               Container(
-                  width: 80.00,
-                  height: 80.00,
+                  width: 90.00,
+                  height: 90.00,
                   decoration: BoxDecoration(
                     color: Colors.blue[100],
                     borderRadius: const BorderRadius.all(Radius.circular(10)),
@@ -106,6 +106,7 @@ class UserDetails extends StatelessWidget {
               Tab(text: "Pagamento"),
               Tab(text: "Histórico"),
             ],
+            labelPadding: EdgeInsets.symmetric(horizontal: 5),
           ),
           const SizedBox(
             height: 5,
